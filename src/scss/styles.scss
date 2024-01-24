@@ -668,6 +668,10 @@ body {
     gap: 16px;
   }
 
+  &__img {
+    object-fit: contain;
+  }
+
   @media (max-width: 1080px) {
     gap: 20px;
   }
